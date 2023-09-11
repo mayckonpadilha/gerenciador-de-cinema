@@ -1,0 +1,42 @@
+{
+  "name": "projeto-bootstrap",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <img width=\"100\" height=\"100\" src=\"https://storeassure.net/wp-content/uploads/2022/11/StoreAssure_Icon_2c_large.png\">\r   <br>\r   <br>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode production",
+    "build": "webpack --mode production",
+    "publish": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "@types/uuid": "^9.0.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/academia-do-programador/projeto-webpack-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/academia-do-programador/projeto-webpack-base/issues"
+  },
+  "homepage": "https://github.com/academia-do-programador/projeto-webpack-base#readme"
+}
